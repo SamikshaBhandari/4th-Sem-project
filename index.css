@@ -121,3 +121,13 @@ header {
 .stats h3:hover {
   color: rgb(11, 141, 240);
 }
+.featured {
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.featured p {
+  font-size: large;
+}
