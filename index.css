@@ -215,3 +215,57 @@ header {
   background-color: rgb(12, 124, 243);
   color: white;
 }
+.card-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.1);
+  padding: 15px;
+  max-width: 250px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-content {
+  padding: 10px;
+  text-align: left;
+}
+.card-content i {
+  margin-right: 6px;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.card-content p {
+  font-size: 0.9em;
+  color: rgb(80, 80, 80);
+  margin-bottom: 10px;
+}
+.card-content h2 {
+  font-size: 1.2em;
+  color: rgb(6, 6, 6);
+  margin-bottom: 6px;
+}
+.card-content span {
+  display: inline-block;
+  background-color: rgb(230, 240, 250);
+  color: rgb(12, 124, 243);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin-right: 6px;
+  margin-top: 6px;
+}
