@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(248, 249, 250);
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.image img {
+  height: 60px;
+  width: 130px;
+}
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+.navigation a:hover {
+  color: rgb(11, 141, 240);
+}
+.login button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: 1px solid rgb(11, 141, 240);
+  background-color: rgb(255, 253, 253);
+  color: rgb(18, 160, 216);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login button:hover {
+  background-color: rgb(11, 141, 240);
+  color: white;
+}
+.login.sign-up {
+  background-color: #0797f1;
+  color: white;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 211, 208);
+}
+.container1 {
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.images img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.container2 h1 {
+  text-align: center;
+  color: rgb(36, 35, 35);
+}
+.container2 p {
+  text-align: center;
+  color: rgb(88, 87, 87);
+}
+.main-box {
+  margin-top: 20px;
+}
+.main-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-box label {
+  font-size: 16px;
+  color: rgb(12, 12, 12);
+  font-weight: normal;
+}
+.main-box input {
+  padding: 10px;
+  border: 1px solid rgb(189, 187, 187);
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+.container3 i {
+  position: absolute;
+  color: gray;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.container3 input {
+  padding-left: 30px;
+}
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+  color: black;
+}
+.Forgot a {
+  text-decoration: none;
+  color: rgb(9, 107, 245);
+  font-size: 16px;
+}
+.Forgot a:hover {
+  text-decoration: underline;
+}
+.signup {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(11, 141, 240);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.signup a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.container5 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.container5::before,
+.container5::after {
+  content: "";
+  flex: 1;
+  border-bottom: gray 1px solid;
+}
+.container5::before {
+  margin-right: 10px;
+}
+.container5::after {
+  margin-left: 10px;
+}
+.container5 span {
+  font-size: 14px;
+  color: rgb(64, 64, 64);
+}
+.container6 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.container6 button {
+  border: 1px solid rgb(180, 178, 178);
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+}
+.google {
+  background-color: white;
+}
+.Facebook {
+  background-color: white;
+}
+.google i {
+  color: rgb(219, 50, 54);
+}
+.Facebook i {
+  color: rgb(79, 130, 238);
+}
+.Facebook:hover,
+.google:hover {
+  background-color: rgb(11, 141, 240);
+  color: white;
+}
+.container7 {
+  text-align: center;
+  margin-top: 20px;
+}
+.container7 p {
+  font-size: 16px;
+  color: rgb(44, 43, 43);
+}
+.container7 a {
+  text-decoration: none;
+  color: rgb(9, 107, 245);
+}
+.container7 a:hover {
+  text-decoration: underline;
+}
