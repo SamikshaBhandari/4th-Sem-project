@@ -215,3 +215,107 @@ header {
 .container7 a:hover {
   text-decoration: underline;
 }
+footer {
+  background-color: rgb(23, 22, 22);
+  color: white;
+  padding: 50px 20px 30px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+.media {
+  min-width: 250px;
+  text-align: center;
+}
+.media img {
+  height: 80px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+.media p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.icons a {
+  background-color: rgb(83, 83, 83);
+  padding: 12px 14px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.icons a:hover {
+  background-color: rgb(11, 141, 240);
+}
+.link {
+  min-width: 200px;
+}
+.link h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+.tags a {
+  display: block;
+  margin: 8px 0;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+.tags a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.contact {
+  min-width: 200px;
+}
+.contact h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+.contact p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.contact i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: white;
+}
+footer .copyright {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: gray;
+}
+@media (max-width: 768px) {
+  .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .media,
+  .link,
+  .contact {
+    padding: 10px 0;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+}
