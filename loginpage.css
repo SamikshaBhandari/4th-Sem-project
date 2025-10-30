@@ -309,12 +309,15 @@ footer .copyright {
     align-items: center;
     text-align: center;
   }
-  .media,
-  .link,
+  .media {
+    padding: 10px 0;
+  }
+  .link {
+    padding: 10px 0;
+  }
   .contact {
     padding: 10px 0;
   }
-
   .icons {
     justify-content: center;
   }
