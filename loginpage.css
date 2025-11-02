@@ -114,7 +114,7 @@ header {
   align-items: center;
   margin-top: 10px;
 }
-.checkbox {
+.Boxes {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -321,4 +321,22 @@ footer .copyright {
   .icons {
     justify-content: center;
   }
+}
+.Name-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 10px;
+}
+.Privacy {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.privacy2 a {
+  text-decoration: none;
+}
+.privacy2 a:hover {
+  text-decoration: underline;
 }
