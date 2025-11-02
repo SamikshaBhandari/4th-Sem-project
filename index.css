@@ -56,17 +56,17 @@ header {
       rgba(10, 25, 47, 0.85),
       rgba(0, 0, 0, 0.4)
     ),
-    url("background image.webp");
+    url("Images/background image.webp");
   background-size: cover;
   background-position: center;
 }
 .hero h1 {
-  font-size: 2.5em;
+  font-size: 3rem;
   margin-bottom: 10px;
   color: white;
 }
 .hero p {
-  font-size: 1.2em;
+  font-size: large;
   margin-bottom: 30px;
   color: white;
 }
@@ -359,6 +359,9 @@ header {
   text-align: center;
   margin-left: 80px;
 }
+.hosting:hover {
+  transform: translateY(-10px);
+}
 .host-details {
   display: flex;
   align-items: center;
@@ -456,6 +459,9 @@ header {
   text-align: center;
   margin-left: 80px;
 }
+.re-part:hover {
+  transform: translateY(-10px);
+}
 .re-part1 {
   display: flex;
   align-items: center;
@@ -509,7 +515,7 @@ header {
       rgba(10, 25, 47, 0.9),
       rgba(0, 0, 0, 0.2)
     ),
-    url("explore.webp");
+    url("Images/explore.webp");
   background-size: cover;
   background-position: center;
   border-radius: none;
