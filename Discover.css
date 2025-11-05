@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(248, 249, 250);
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.image img {
+  height: 60px;
+  width: 130px;
+}
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+.navigation a:hover {
+  color: rgb(11, 141, 240);
+}
+.login button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: 1px solid rgb(11, 141, 240);
+  background-color: rgb(255, 253, 253);
+  color: rgb(18, 160, 216);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login button:hover {
+  background-color: rgb(11, 141, 240);
+  color: white;
+}
+.login.sign-up {
+  background-color: #0797f1;
+  color: white;
+}
+.main-container {
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 25, 47, 0.7),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url(Images/b_image.webp);
+  height: 400px;
+  width: 100%;
+  padding: 80px 20px;
+  background-size: cover;
+  background-position: center;
+}
+.describe {
+  margin-top: 50px;
+  align-items: center;
+}
+.main-container h1 {
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.main-container p {
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: lighter;
+  color: white;
+}
+.experience {
+  background-color: white;
+  height: 200px;
+  margin-top: 20px;
+}
+.expe_places {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 30px;
+}
+.exp_place h2 {
+  font-size: 2rem;
+  margin-left: 50px;
+}
+.place_type a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+.place_type {
+  background-color: rgb(245, 245, 248);
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
