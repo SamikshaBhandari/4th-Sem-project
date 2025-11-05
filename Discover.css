@@ -79,28 +79,41 @@ header {
 }
 .experience {
   background-color: white;
-  height: 200px;
-  margin-top: 20px;
-}
-.expe_places {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 30px;
+  padding: 30px 0;
 }
 .exp_place h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
   margin-left: 50px;
+}
+.expe_places {
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.place_type {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgb(227, 225, 225);
+  height: 40px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
 }
 .place_type a {
   text-decoration: none;
-  color: black;
-  align-items: center;
+  color: rgb(51, 51, 51);
+  font-weight: 500px;
 }
-.place_type {
-  background-color: rgb(245, 245, 248);
-  border-radius: 10px;
-  height: 30px;
-  width: 100px;
-  text-align: center;
+.place_type:hover {
+  background-color: rgb(50, 161, 239);
+}
+.place_type:hover a {
+  color: white;
+}
+.place_type i {
+  font-size: small;
 }
