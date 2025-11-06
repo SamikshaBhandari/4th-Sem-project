@@ -92,6 +92,11 @@ header {
   flex-wrap: wrap;
   gap: 10px;
 }
+.exp_place a {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
 .place_type {
   background-color: white;
   border-radius: 15px;
@@ -116,4 +121,132 @@ header {
 }
 .place_type i {
   font-size: small;
+}
+.Place_container {
+  background-color: rgb(235, 231, 231);
+}
+.found {
+  width: 100%;
+  margin-top: 30px;
+}
+.found_place {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+  text-align: center;
+}
+.box1 h3 {
+  font-style: normal;
+  font-weight: bold;
+}
+#sort {
+  height: 30px;
+  border-radius: 5px;
+  color: rgb(21, 21, 21);
+}
+
+.found1 {
+  position: relative;
+  width: 340px;
+  height: 440px;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.found1 img {
+  width: 100%;
+  height: 210px;
+  border-radius: 5px;
+}
+.tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: rgb(249, 250, 250);
+  color: rgb(6, 6, 6);
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.tag:hover {
+  background-color: rgb(11, 141, 240);
+  color: white;
+}
+.Main_Container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 20px;
+}
+.found1-content {
+  padding: 15px;
+}
+.found1-content h3 {
+  margin: 0;
+  font-size: 20px;
+  color: gray(62, 62, 62);
+}
+.found1-content p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: rgb(53, 52, 52);
+}
+.found1-content p i {
+  font-weight: bolder;
+  color: rgb(14, 14, 15);
+}
+.local_place {
+  display: flex;
+  justify-content: space-between;
+}
+.local_place1 p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.found1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.detail_view {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.detail_view a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: rgb(18, 18, 18);
+  border: 1px solid rgb(151, 213, 229);
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: white;
+  transition: all 0.3s ease;
+  gap: 10px;
+}
+.detail_view a {
+  width: 150px;
+}
+.detail_view a:hover {
+  background-color: rgb(0, 157, 255);
+  color: white;
 }
